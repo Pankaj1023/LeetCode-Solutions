@@ -18,7 +18,7 @@ int main()
 
     }
 
-    for(auto it: freq)
+    for(auto it: freq)        /// for ouput ke lye
     {
     cout<<it:first<<"->"<<it.second<<"\n";
     }
