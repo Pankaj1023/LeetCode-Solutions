@@ -13,3 +13,10 @@ public:
 
     }
 }
+
+
+//  Approach 2 (STL – Short Method)
+
+#include <algorithm>
+
+int count = count(nums.begin(), nums.end(), x);
