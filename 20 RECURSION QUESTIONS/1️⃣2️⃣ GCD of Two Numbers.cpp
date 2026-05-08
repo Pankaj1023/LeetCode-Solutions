@@ -7,3 +7,22 @@ public:
         return findGCD(mini,maxi);
     }
 }
+
+
+
+
+//   🚀 METHOD 2 — Euclidean Algorithm ⭐ BEST
+// 📌 Formula
+
+// gcd(a,b)=gcd(b,amodb)
+
+class Solution {
+public:
+
+    int gcd(int a, int b) {
+        if(b==0)
+        return 0;
+
+        return gcd(b,a%b);
+    }
+};
